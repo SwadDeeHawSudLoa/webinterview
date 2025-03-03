@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple by Region</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="temple" class="templeall">
+        <h1>TEMPLE BY REGION</h1>
+        <p>ค้นหาข้อมูลวัดตามภูมิภาค</p>
+
+        <!-- กริดแสดงผล -->
+        <div id="gridContainer" class="grid-container columns-3">
+            <div id="watthai" class="wat">
+                <img id="imagewatthai" class="imagewatthai2" src="temple1.jpg" alt="ภาคเหนือ">
+                <div class="overlay">ภาคเหนือ</div>
+            </div>
+            <div id="watthai" class="wat">
+                <img id="imagewatthai" class="imagewatthai2" src="temple2.jpg" alt="ภาคกลาง">
+                <div class="overlay">ภาคกลาง</div>
+            </div>
+            <div id="watthai" class="wat">
+                <img id="imagewatthai" class="imagewatthai2" src="temple3.jpg" alt="ภาคตะวันออกเฉียงเหนือ">
+                <div class="overlay">ภาคตะวันออกเฉียงเหนือ</div>
+            </div>
+            <div id="watthai" class="wat">
+                <img id="imagewatthai" class="imagewatthai2" src="temple4.jpg" alt="ภาคตะวันตก">
+                <div class="overlay">ภาคตะวันตก</div>
+            </div>
+            <div id="watthai" class="wat">
+                <img id="imagewatthai" class="imagewatthai2" src="temple5.jpg" alt="ภาคตะวันออก">
+                <div class="overlay">ภาคตะวันออก</div>
+            </div>
+            <div id="watthai" class="wat">
+                <img id="imagewatthai" class="imagewatthai2" src="temple6.jpg" alt="ภาคใต้">
+                <div class="overlay">ภาคใต้</div>
+            </div>
+
+        </div>
+
+        <!-- ปุ่มควบคุม -->
+        <div class="controls">
+            <label for="columns">จำนวนคอลัมน์:</label>
+            <select id="columns">
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+            </select>
+
+            <label for="autoplay">Auto Play:</label>
+            <select id="autoplay">
+                <option value="true">เปิด</option>
+                <option value="false" selected>ปิด</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
